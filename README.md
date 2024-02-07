@@ -1,2 +1,1 @@
-# ggplot24
-Repo to accompany the ggplot2 workshop from BIOS mini course.
+https://github.com/kirver/ggplot2.git
