@@ -15,6 +15,12 @@ Please see the accompanying powerpoint for more details.
 and load in the following packages (which should already be pre-installed):
 
 setwd(C:/Path/to/file)
+
+install.packages("tidyverse")
+install.packages("ggplot2")
+install.packages("gridExtra")
+install.packages("RColorBrewer")
+
 library("tidyverse")
 library("ggplot2")
 library("gridExtra")
