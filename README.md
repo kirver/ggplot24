@@ -227,8 +227,8 @@ NOW! If you want to add that model, that _layer_, to the graph, you add on anoth
   geom_point(color="darkgreen") + geom_smooth(methods='lm')`
   
   ![pp](https://github.com/kirver/ggplot2/blob/main/img/pp11.png)
-  
-  More information about the `geom_smooth()` function can be found [here](https://ggplot2.tidyverse.org/reference/geom_smooth.html). 
+
+geom_smooth adds a trend line to an existing plot, such as a regression line (which I think is what we see here). It "aids the eye in seeing patterns in the presence of overplotting".   More information about the `geom_smooth()` function can be found [here](https://ggplot2.tidyverse.org/reference/geom_smooth.html). 
   
 ## Adding Text to Scatterplots
 
