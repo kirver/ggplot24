@@ -483,7 +483,11 @@ So, you set a scale, and then _add_ it on top of the ggplot. For example, let's 
 
 ![pp](https://github.com/kirver/ggplot2/blob/main/img/pp29.png)
 
-We can change the color scheme by creating a `scale_color_*` or `scale_fill_*` object. We know from the above code that 'Set2' is a CB-friendly palette. We are working with _discrete_ color scales (since we are looking at discrete Types). **Note**: If we were using quantitative data (for example, assigning color to speed instead of type), we would use the `scale_color_continuous()` function.
+We can change the color scheme by creating a `scale_color_*` or `scale_fill_*` object. 
+
+`scale_color_*` usually refers to point and line color.  `scale_fill_*` usually refers to fill bars, density fills, inner color, etc;. This will haunt you throughout your coding life if you don't learn it now! :) 
+
+We know from the above code that 'Set2' is a CB-friendly palette. We are working with _discrete_ color scales (since we are looking at discrete Types). **Note**: If we were using quantitative data (for example, assigning color to speed instead of type), we would use the `scale_color_continuous()` function.
 
 So, in order to use the RColorBrewer palette on this graph,  we use the `scale_color_brewer()` function, and assign it a palette, as so:
 
