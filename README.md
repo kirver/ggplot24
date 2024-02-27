@@ -32,7 +32,7 @@ Now, we will load in the Pokemon dataset. This dataset was taken from [The Compl
 
 For those who are young and/or had friends growing up, Pokemon is a Japanese media franchise based on "pocket monsters" that you can train, befriend, coexist with. There are a lot of them, and there is a *passionate* culture centered around them. 
 
-![Pikachu](Pikachu.png)
+![Pikachu](pika_snor.png)
 
 ```
 p <- read.csv("pokemon.csv")
