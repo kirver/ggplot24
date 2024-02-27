@@ -20,6 +20,9 @@ install.packages("tidyverse")
 install.packages("ggplot2")
 install.packages("gridExtra")
 install.packages("RColorBrewer")
+install.packages("viridis")
+
+#The above might take a few minutes.
 
 library("tidyverse")
 library("ggplot2")
@@ -566,9 +569,9 @@ The above discussed manipulations of pre-existing color scales and assigning the
 
 I took my weird ass, looked at every Gen 1 Pokemon and assigned it an overall 'color'. For example, I took Lapras (example below) and labeled it as 'Blue'. This data is in [pokemon_colors.csv](https://github.com/kirver/ggplot2/blob/main/pokemon_colors.csv). 
 
-![Lapras](https://archives.bulbagarden.net/media/upload/thumb/a/ab/131Lapras.png/250px-131Lapras.png)
+![Lapras](lapras.png)
 
-_A Blue Pokemon._
+_A Blue Pokemon. Fan art of Lapras by Leia Sopicki._
  
  Read it in and check it out!
  
