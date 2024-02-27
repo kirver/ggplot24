@@ -164,7 +164,7 @@ This is getting _hella_ noisy. Let's take a breath and focus on one thing we can
 
 1. Previously, we changed the `alpha()` settings. How could you manipulate the code above to change the transparency based on a new variable? 
 
-## Cambiando el Tema
+## Changing the Theme
 
 [Themes](https://ggplot2.tidyverse.org/reference/ggtheme.html) area fun way of changing all the non-data display. Just, like, the vibe, tu sabes. 
 
@@ -196,7 +196,7 @@ Now, try out a few of these themes and see what is prettiest for you:
 
 `p1 + theme_classic()`
 
-## Fitting a Linear Model
+## Cos You're So Smooth!
 
 Disclaimer: I know very little about linear regressions. But other people, such as Dr. Juarez, and [the guy who wrote this](https://sejohnston.com/2012/08/09/a-quick-and-easy-function-to-plot-lm-results-in-r/), totally do! But I will run through a basic function:
 
@@ -327,7 +327,7 @@ contando_legendarios
 7. Look at the new graph. Do you still see the variable 'Legendary' reflected in this graph? What does this say about preference & overriding of defaults in ggplot2? That is to say: which is given more priority: the defaults (initially assigned with `aes()` or the `geom`?
 
 
-## The Boxplot-Step
+## Boxplots
 
 Boxplots are a way of examining the quantitative means between categorical variables. A great guide to using boxplots can be found [here](http://www.sthda.com/english/wiki/ggplot2-box-plot-quick-start-guide-r-software-and-data-visualization). Let's go nuts for a second and see how the HP of legendaries compares to those of non-legendaries:
 
@@ -456,7 +456,7 @@ p3
 Nice! More interesting manipulations of the axes can be found [here](http://www.sthda.com/english/wiki/ggplot2-axis-ticks-a-guide-to-customize-tick-marks-and-labels). 
 
 
-## Colores, by J Balvin
+## Colors 
 
 ### Color Scales, Discrete and Continuous
 
