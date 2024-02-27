@@ -193,7 +193,7 @@ Now, try out a few of these themes and see what is prettiest for you:
 
 `p1 + theme_classic()`
 
-## Fitting a Linear Regression
+## Fitting a Linear Model
 
 Disclaimer: I know very little about linear regressions. But other people, such as Dr. Juarez, and [the guy who wrote this](https://sejohnston.com/2012/08/09/a-quick-and-easy-function-to-plot-lm-results-in-r/), totally do! But I will run through a basic function:
 
